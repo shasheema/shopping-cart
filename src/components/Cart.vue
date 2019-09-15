@@ -1,11 +1,11 @@
 <template>
     <div class="container">
-        <h1 class="my-2">Cart <span class="badge badge-secondary">{{cartSize}} products</span></h1>
+        <h2 class="my-2">Cart <span class="badge badge-secondary">{{cartSize}} products</span></h2>
         <div v-if="!cartSize" class="alert alert-secondary my-5" role="alert">
             Cart is empty! Please add some products.
         </div>
         <table v-else class="table table-striped mb-5">
-          <thead class="thead-dark">
+          <thead class="table-head">
             <tr>
               <th scope="col" id="num-heading">#</th>
               <th scope="col" class="product-column">Product</th>
@@ -115,7 +115,34 @@
     .total{
         text-align: right;
     }
+    .table-head{
+        background-color: #343a40;
+        color: white;
+    }
     .checkout{
         float: right;
+        color: #FFFFFF;
+        text-decoration: none;
+        width: 120px;
+        height: 30px;
+        border-radius: 18px;
+        background-color: #047a9c;
+        cursor: pointer;
+        font-size: 16px;
+        box-shadow: none;
+        font-weight: 500;
+        border: none;
+    }
+    .btn-danger{
+        color: #FFFFFF;
+        text-decoration: none;
+        width: 70px;
+        height: 30px;
+        border-radius: 18px;
+        cursor: pointer;
+        font-size: 12px;
+        box-shadow: none;
+        font-weight: 500;
+        border: none;
     }
 </style>

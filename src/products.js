@@ -14,11 +14,11 @@ export default [
         image: 'https://static-01.daraz.lk/original/50fae97b5c49a8a7d79ae56944118072.jpg_720x720q75.jpg_.webp',
     },
     {
-        name: "Smartphone Motorola Moto G6 Plu",
+        name: "Screen Protection 9H Tempered Samsung Galaxy Note 3",
         id: 3,
-        price: 1692,
+        price: 99,
         quantity: 5,
-        image: 'https://images-americanas.b2w.io/produtos/01/00/item/133453/1/133453185G1.jpg',
+        image: 'https://static-01.daraz.lk/p/4fecf55adc1891a14b8e6994bafe245b.jpg_720x720q75.jpg_.webp',
     },
     {
         name: "Notebook VAIO Fit 15S B1211B Intel Core i5 4GB",
@@ -36,11 +36,11 @@ export default [
         image: 'https://images-americanas.b2w.io/produtos/01/00/item/132474/0/132474081G1.png',
     },
     {
-        name: "Screen Protection 9H Tempered Samsung Galaxy Note 3",
+        name: "Smartphone Motorola Moto G6 Plu",
         id: 6,
-        price: 99,
+        price: 1692,
         quantity: 5,
-        image: 'https://static-01.daraz.lk/p/4fecf55adc1891a14b8e6994bafe245b.jpg_720x720q75.jpg_.webp',
+        image: 'https://images-americanas.b2w.io/produtos/01/00/item/133453/1/133453185G1.jpg',
     },
     {
         name: "Screen Protection 9H Tempered Samsung Galaxy Note 3",

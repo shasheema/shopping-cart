@@ -1,8 +1,8 @@
 <template>
-    <div class="card">
+    <div id="product-page" class="card">
        <div class="card-body">
            <h5 class="card-title">{{ currentProduct.name }}</h5>
-           <img :src="currentProduct.image" :alt="currentProduct.name">
+           <img :src="currentProduct.image" :alt="currentProduct.name" width="500px">
 
            <p class="card-text">Price: Rs.<b>{{ currentProduct.price.toFixed(2) }}</b></p>
            <button
@@ -60,6 +60,10 @@
     };
 </script>
 <style>
+    #product-page.card{
+        width: 60%;
+        margin: 0 auto;
+    }
     .card {
         min-height: 380px;
     }

@@ -40,12 +40,33 @@
     }
 </script>
 <style scoped>
-    .btn.btn-primary a{
+    .btn.btn-primary{
         color: #FFFFFF;
         text-decoration: none;
+        width: 97px;
+        height: 30px;
+        border-radius: 18px;
+        background-color: #047a9c;
+        cursor: pointer;
+        font-size: 16px;
+        box-shadow: none;
+        font-weight: 500;
+        border: none;
     }
     .btn-primary{
         margin-right: 10px;
+    }
+    .btn-success{
+        color: #FFFFFF;
+        text-decoration: none;
+        width: 90px;
+        height: 30px;
+        border-radius: 18px;
+        cursor: pointer;
+        font-size: 16px;
+        box-shadow: none;
+        font-weight: 500;
+        border: none;
     }
     .card img{
         margin: 0 20%;

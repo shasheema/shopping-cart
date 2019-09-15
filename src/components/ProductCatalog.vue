@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1 class="my-2">Products</h1>
+        <h2 class="my-2">Products</h2>
         <div class="row">
            <div v-for="product in products" :key="product.id" class="col-sm-6 col-md-4 p-2">
                <single-product :product="product"></single-product>
