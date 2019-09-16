@@ -12,7 +12,7 @@
                </router-link></span>
             </li>
             <li>
-                <span class="nav-link"><router-link to="/checkout">Checkout
+                <span class="nav-link"><router-link to="/shopping-cart">Shopping Cart
                </router-link></span>
             </li>
         </ul>

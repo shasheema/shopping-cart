@@ -5,12 +5,13 @@
            <img :src="currentProduct.image" :alt="currentProduct.name" width="500px">
 
            <p class="card-text">Price: Rs.<b>{{ currentProduct.price.toFixed(2) }}</b></p>
-           <button
-               class="btn mt-3"
-               :class="inCartQuantity ? 'btn-success' :  'btn-danger'" :disabled="!inCartQuantity"
-               {{inCartQuantity ? "Add to Cart" : "Out of stock"}}
-               @click="addToCart(this.$route.params.id)">
 
+           <button
+                   class="btn mt-3"
+                   :class="inCartQuantity ? 'btn-success' :  'btn-danger'"
+                   @click="addToCart(currentProduct.id)"
+                   :disabled="!inCartQuantity">
+               {{inCartQuantity ? "Add to Cart" : "Out of stock"}}
            </button>
 
 
@@ -33,7 +34,7 @@
                 currentProduct: "getProduct",
             }),
             inCartQuantity() {
-                return this.product.quantity;
+                return this.currentProduct.quantity;
             }
         },
         created(){

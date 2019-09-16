@@ -44,11 +44,9 @@ export const store = new Vuex.Store({
     },
     mutations: {
         setUpProducts: (state, productsPayload) => {
-            //sets the state's  products property to the products array recieved as payload
             state.products = productsPayload;
         },
         setUpProduct: (state, productId) => {
-            //sets the state's  products property to the products array recieved as payload
             state.product = state.products.find((product) => product.id === productId);
         },
         addToCart: (state, productId) => {
