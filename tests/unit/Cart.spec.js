@@ -1,5 +1,10 @@
-import { shallowMount } from "@vue/test-utils";
+import { shallowMount, createLocalVue } from "@vue/test-utils";
 import Cart from "@/components/Cart.vue";
+import Vuex from 'vuex';
+
+const localVue = createLocalVue();
+
+localVue.use(Vuex);
 
 describe("Cart.vue" , () => {
     it('sets the correct default data', () => {

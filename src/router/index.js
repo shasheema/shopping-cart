@@ -21,11 +21,6 @@ export default new Router({
             component: HelloWorld
         },
         {
-            path: '/navbar',
-            name: 'Nav',
-            component: NavBar
-        },
-        {
             path: '/product/:id',
             name: 'product',
             component: Product

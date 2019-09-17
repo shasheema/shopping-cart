@@ -17,11 +17,7 @@
             PrductCatalog,
             Cart,
         },
-        // computed: {
-        //   toast() {
-        //     return this.$store.getters.toast;
-        //   }
-        // },
+
         methods: {
             hideToast() {
                 this.$store.commit("hideToast");
